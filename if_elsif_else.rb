@@ -26,3 +26,11 @@ elsif name === "Jenny"
 else
   puts "I don't think we've met."
 end
+
+############################################################################################################################
+# checks if the age entered is less than 18, if true returns child otherwise returns adult(another use of ternary operators)
+############################################################################################################################   
+puts "Please enter your age:"
+age = gets.to_i
+type = age < 18 ? "child" : "adult"
+puts "You are a " + type
