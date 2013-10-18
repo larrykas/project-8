@@ -1,0 +1,61 @@
+Project 8:
+
+1.  Create a script that uses (if, elsif, else)
+2. Study up on “ternary operators” in ruby
+
+3. What is the value of x? (solve on your own, not using irb)
+  
+  a = true
+  x = a ? 23 : 45
+
+When 'a' is assigned the value of true. So 'a' is true. And when we assign 'x' to the value of 'a' with a question mark we are asking the computer whether 'x' is equal to 'a'. The expected answer is true. That's why it returns 23. These two number represent boolean values, ie if the equation evaluates to true it returns 23 and otherwise returns 45. 
+
+
+4. What is the value of x?
+
+  a = true
+  x = a ? 23 : 45
+
+When 'a' is assigned the value of true. So 'a' is true. And when we assign 'x' to the value of 'a' with a question mark we are asking the computer whether 'x' is equal to 'a'. The expected answer is true. That's why it returns 23. These two number represent boolean values, ie if the equation evaluates to true it returns 23 and otherwise returns 45. 
+  
+
+5. What is the value of x?
+
+  a = false
+  x = !a ? 23 : 45
+  
+When 'a' is assigned the value of false. So 'a' is false. And when we assign 'x' to the value of '!a'(not equal to 'a') with a question mark we are asking the computer whether 'x' is not equal to 'a'. The expected answer is true.
+Because it is true 'x' is not equal to 'a' and there should return 23.
+
+6. What is the value of x?
+  a = false
+  x = a ? 23 : 45
+  
+The value of 'x' is false, since 45 represents the boolean false so the final result is 45.
+  
+
+7. What is the value of x?
+  a = !false
+  x = !a ? 23 : 45
+  
+In the first expression it's true 'a' is not false. In the second expression 'x' is not 'a'.
+  
+
+8. Add the following arrays together [‘a’,’b’,’c’]  and [‘d’,’e’,’f’]
+
+m = ['a','b','c']
+n = ['d', 'e', 'f']
+
+o = m + n # adding or union
+
+9. Create an “intersection” of the following arrays [1,2,3,4], [1,3,4]
+
+p = [1,2,3,4]
+q = [1,3,4]
+
+r = p & Q # intersection
+
+10. Create an “Union” of the following arrays [1,2,3,4],[1,3,4]
+
+s = [1,2,3,4],[1,3,4]
+t = p + q # union
